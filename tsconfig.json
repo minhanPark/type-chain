@@ -1,0 +1,15 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6", "DOM"],
+    "strict": true
+  }
+}
+
+//includes는 타입스크립트를 어디에서 사용할 것인지 위치
+// outDir는 컴파일 했을 때 결과물을 어디에 저장할 지
+// target은 우리가 어떤 es를 기준으로 코드를 컴파일 할 지를 설정한다.
+// lib는 타입스크립트에게 코드가 어디에서 실행될 지 알려줘서 call signiture 및 타입을 받을 수 있음
+// declaration file은 자바스크립트 코드의 모양을 타입스크립트에 설명해주는 파일
