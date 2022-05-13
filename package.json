@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "homepage": "https://github.com/minhanPark/type-chain#readme",
   "devDependencies": {
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0"
   }
 }
