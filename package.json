@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/minhanPark/type-chain#readme",
   "devDependencies": {
+    "@types/node": "^17.0.33",
     "typescript": "^4.6.4"
   },
   "dependencies": {
